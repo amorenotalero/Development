@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../sources/toomnook.icon.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="https://kit.fontawesome.com/00154b0b1a.js" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>Register</title>
+    </head>
+
+    <body>
+        <div class="container-signup">
+            <div class="signup-more">
+                <video autoplay muted loop>
+                    <source src="../sources/Tom Nook meme.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <div class="wrap-signup">
+
+                <form action="../php/successSignUp.php" method="post" class="signup-form">
+                    <span class="signup-form-title">Hello new :)</span>
+
+                    <div class="wrap-input">
+                        <span class="label-input">Username</span>
+                        <input class="input" type="text" id="name" name="name" placeholder="What's your name?">
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input">
+                        <span class="label-input">Email</span>
+                        <input class="input" type="text" id="email" name="email" placeholder="Give us an email to contact to us">
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="wrap-input">
+                        <span class="label-input">Password</span>
+                        <input class="input" type="password" id="password" name="password" placeholder="Passworld pls">
+                        <span class="focus-input"></span>
+                    </div>
+
+                    <div class="container-terms">
+                        <input type="checkbox" name="terms" value="box">
+                        <label for="box"> I accept the <a href="#"><span>terms of user</span></a></label><br>
+                    </div>
+
+                    <div id="error"></div>
+
+                    <div class="text">
+                        <a href="#">Sign up</a>
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+    
+        <script src="../js/scripts.js" charset="utf-8"></script>
+    </body>
+</html>
